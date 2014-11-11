@@ -8,6 +8,6 @@ This utility runs through all the `.nuspec` files in your project folder and pac
 
 ##TC.NuGetPack.Project
 
-This utility inspects your project to build the `.nupkg' file. If you haven't added a correctly named `.nuspec` file one will be created which will need default settings changed.
+This utility inspects your project to build the `.nupkg` file. If you haven't added a correctly named `.nuspec` file one will be created which will need default settings changed.
 
 
