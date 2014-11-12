@@ -9,7 +9,7 @@
       <projectUrl>https://github.com/gothandy/TC.NuGetPack</projectUrl>
       <iconUrl>https://raw.githubusercontent.com/gothandy/TC.NuGetPack/master/favicon.ico</iconUrl>
       <requireLicenseAcceptance>false</requireLicenseAcceptance>
-      <description>My package description.</description>
+      <description>Update the project NuGet package automatically after every build.</description>
       <copyright>Copyright 2014 True Clarity</copyright>
   </metadata>
   <files>
