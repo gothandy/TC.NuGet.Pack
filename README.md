@@ -14,6 +14,12 @@ This utility inspects your project to build the `.nupkg` file. If you haven't ad
 
 https://www.nuget.org/packages/TC.NuGetPack.Project/
 
+For the Project utility to stop this utility appearing as a dependancy add the following to your project `packages.config` file.
+
+```
+<package id="TC.NuGetPack.Project" version="1.0.0.0" targetFramework="net45" developmentDependency="true" />
+```
+
 ##Setup
 
 Both utilities currently require a `packages` folder creating in the `.nuget` folder found in the root of your solution.
