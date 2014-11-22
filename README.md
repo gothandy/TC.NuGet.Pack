@@ -7,7 +7,7 @@ The NuGet.exe used is the bootstrapper version.
 
 This utility runs through all the `.nuspec` files in your
 project folder then packs and pushes each one. All `.nupkg`
-files found in the root of the project are deleted.
+files left in the root of the project are deleted.
 
 http://www.nuget.org/packages/TC.NuGetPack.All/
 
