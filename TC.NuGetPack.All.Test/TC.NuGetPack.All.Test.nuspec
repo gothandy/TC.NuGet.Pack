@@ -12,4 +12,7 @@
       <description>My package description.</description>
       <copyright>Copyright 2014 True Clarity</copyright>
   </metadata>
+  <files>
+    <file src="Test.txt" target="content\Test.txt" />
+  </files>
 </package>

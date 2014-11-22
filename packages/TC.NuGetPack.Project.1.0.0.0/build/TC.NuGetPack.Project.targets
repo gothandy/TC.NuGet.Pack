@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Target Name="TCNuGetPackTarget" AfterTargets="Build">
-    <Exec Command="$(NuGetExePath) spec" />
-    <Exec Command="$(NuGetExePath) pack" />
-    <Exec Command="move $(ProjectDir)*.nupkg $(SolutionDir).nuget\packages" />
-  </Target>
-</Project>

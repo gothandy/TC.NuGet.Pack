@@ -12,8 +12,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
-    <RestorePackages>true</RestorePackages>
-    <NuGetPackageImportStamp>5c977206</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>873962d7</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -51,6 +50,7 @@
     <None Include="build\TC.NuGetPack.All.targets">
       <SubType>Designer</SubType>
     </None>
+    <None Include="NuGetPack.bat" />
     <None Include="packages.config" />
     <None Include="TC.NuGetPack.All.nuspec">
       <SubType>Designer</SubType>
@@ -59,20 +59,22 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="build\NuGet.exe" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
     </PostBuildEvent>
   </PropertyGroup>
-  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Import Project="..\packages\TC.NuGetPack.All.1.0.0.1\build\TC.NuGetPack.All.targets" Condition="Exists('..\packages\TC.NuGetPack.All.1.0.0.1\build\TC.NuGetPack.All.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
-    <Error Condition="!Exists('..\packages\TC.NuGetPack.All.1.0.0.0\build\TC.NuGetPack.All.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\TC.NuGetPack.All.1.0.0.0\build\TC.NuGetPack.All.targets'))" />
+    <Error Condition="!Exists('..\packages\TC.NuGetPack.All.1.0.0.1\build\TC.NuGetPack.All.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\TC.NuGetPack.All.1.0.0.1\build\TC.NuGetPack.All.targets'))" />
   </Target>
-  <Import Project="..\packages\TC.NuGetPack.All.1.0.0.0\build\TC.NuGetPack.All.targets" Condition="Exists('..\packages\TC.NuGetPack.All.1.0.0.0\build\TC.NuGetPack.All.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
