@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
       <id>TC.NuGetPack.All</id>
-      <version>1.0.1.0</version>
+      <version>1.0.1.1</version>
       <title>TC NuGet Pack (All)</title>
       <authors>gothandy</authors>
       <licenseUrl>https://github.com/gothandy/TC.NuGetPack/blob/master/LICENSE.md</licenseUrl>

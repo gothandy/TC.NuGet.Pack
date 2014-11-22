@@ -36,7 +36,8 @@ add in a `DefaultPushSource`.
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <config>
-    <add key="DefaultPushSource" value="c:\TC\Local Package Source" />
+    <add key="DefaultPushSource" value="C:\TC\LocalPackageSource" />
+  </config>
 ```
 ##Reference
 

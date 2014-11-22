@@ -12,7 +12,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
-    <NuGetPackageImportStamp>879ea305</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>34eff265</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,15 +45,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="TC.NuGetPack.Project.Test.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\packages\TC.NuGetPack.Project.1.0.1.0\build\TC.NuGetPack.Project.targets" Condition="Exists('..\packages\TC.NuGetPack.Project.1.0.1.0\build\TC.NuGetPack.Project.targets')" />
+  <Import Project="..\packages\TC.NuGetPack.Project.1.0.1.1\build\TC.NuGetPack.Project.targets" Condition="Exists('..\packages\TC.NuGetPack.Project.1.0.1.1\build\TC.NuGetPack.Project.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\TC.NuGetPack.Project.1.0.1.0\build\TC.NuGetPack.Project.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\TC.NuGetPack.Project.1.0.1.0\build\TC.NuGetPack.Project.targets'))" />
+    <Error Condition="!Exists('..\packages\TC.NuGetPack.Project.1.0.1.1\build\TC.NuGetPack.Project.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\TC.NuGetPack.Project.1.0.1.1\build\TC.NuGetPack.Project.targets'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -2,9 +2,10 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Target Name="TCNuGetPackTarget" AfterTargets="Build">
 
-    <Exec Command="..\packages\TC.NuGetPack.All.1.0.1.0\build\NuGet.exe spec" />
-    <Exec Command="..\packages\TC.NuGetPack.All.1.0.1.0\build\NuGet.exe pack" />
-    <Exec Command="for %%f in ($(ProjectDir)*.nupkg) do ..\packages\TC.NuGetPack.All.1.0.1.0\build\NuGet.exe push %%f" />
+    <Exec Command="..\packages\TC.NuGetPack.All.1.0.1.1\build\NuGet.exe spec" />
+    <Exec Command="..\packages\TC.NuGetPack.All.1.0.1.1\build\NuGet.exe pack" />
+    <Exec Command="for %%f in ($(ProjectDir)*.nupkg) do ..\packages\TC.NuGetPack.All.1.0.1.1\build\NuGet.exe push %%f" />
+    <Exec Command="del $(ProjectDir)*.nupkg" />
     
   </Target>
 </Project>
