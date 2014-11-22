@@ -6,16 +6,17 @@ The NuGet.exe used is the bootstrapper version.
 ##TC.NuGetPack.All
 
 This utility runs through all the `.nuspec` files in your
-project folder and packs each one. In this scenario I assume
-you're specifiying your dependancies manually.
+project folder then packs and pushes each one. All `.nupkg`
+files found in the root of the project are deleted.
 
 http://www.nuget.org/packages/TC.NuGetPack.All/
 
 ##TC.NuGetPack.Project
 
-This utility inspects your project to build the `.nupkg` file.
+This utility inspects your project to pack the `.nupkg` file.
 If you haven't added a correctly named `.nuspec` file one will
-be created which will need default settings changed.
+be created which will need default settings changed. The `.nupkg`
+is then pushed and deleted.
 
 https://www.nuget.org/packages/TC.NuGetPack.Project/
 
@@ -26,7 +27,7 @@ to your project `packages.config` file.
 <package id="TC.NuGetPack.Project" version="1.0.0.0" targetFramework="net45" developmentDependency="true" />
 ```
 
-##Setup
+##Pushing Local
 
 Given these utilities push a package after ever build it is often
 easier to work with a local Package Source. In your `NuGet.Config`
@@ -39,7 +40,7 @@ add in a `DefaultPushSource`.
     <add key="DefaultPushSource" value="C:\TC\LocalPackageSource" />
   </config>
 ```
-##Reference
+##References
 
 http://blog.davidebbo.com/2014/01/the-right-way-to-restore-nuget-packages.html
 
