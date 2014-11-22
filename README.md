@@ -41,8 +41,11 @@ add in a `DefaultPushSource`.
 ##Reference
 
 http://blog.davidebbo.com/2014/01/the-right-way-to-restore-nuget-packages.html
+
 http://docs.nuget.org/docs/workflows/migrating-to-automatic-package-restore
+
 http://docs.nuget.org/docs/reference/nuget-config-file
+
 http://nuget.codeplex.com/releases/view/58939
 
 
