@@ -1,16 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-      <id>TC.NuGetPack.All</id>
-      <version>1.0.1.2</version>
-      <title>TC NuGet Pack (All)</title>
-      <authors>gothandy</authors>
-      <licenseUrl>https://github.com/gothandy/TC.NuGetPack/blob/master/LICENSE.md</licenseUrl>
-      <projectUrl>https://github.com/gothandy/TC.NuGetPack</projectUrl>
-      <iconUrl>https://raw.githubusercontent.com/gothandy/TC.NuGetPack/master/favicon.ico</iconUrl>
-      <requireLicenseAcceptance>false</requireLicenseAcceptance>
-      <description>Package all NuGet spec files in root folder of a project.</description>
-      <copyright>Copyright 2014 True Clarity</copyright>
+    <id>TC.NuGetPack.All</id>
+    <version>1.0.1.3</version>
+    <title>TC NuGet Pack (All)</title>
+    <authors>gothandy</authors>
+    <licenseUrl>https://github.com/gothandy/TC.NuGetPack/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/gothandy/TC.NuGetPack</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/gothandy/TC.NuGetPack/master/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package all NuGet spec files in root folder of a project.</description>
+    <copyright>Copyright 2014 True Clarity</copyright>
+    <developmentDependency>true</developmentDependency>
   </metadata>
   <files>
     <file src="build\TC.NuGetPack.All.targets" target="build\TC.NuGetPack.All.targets" />
