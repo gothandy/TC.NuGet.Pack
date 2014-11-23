@@ -20,8 +20,8 @@ is then pushed and deleted.
 
 https://www.nuget.org/packages/TC.NuGetPack.Project/
 
-To stop this utility appearing as a dependancy add the following
-to your project `packages.config` file.
+To stop this utility appearing as a dependancy the following
+will be added to your `packages.config` file automatically.
 
 ```
 <package id="TC.NuGetPack.Project" version="1.0.0.0" targetFramework="net45" developmentDependency="true" />
