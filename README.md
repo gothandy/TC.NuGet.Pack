@@ -29,7 +29,7 @@ will be added to your `packages.config` file automatically.
 
 ##Pushing Local
 
-Given these utilities push a package after ever build it is often
+Given these utilities push a package after every build it is often
 easier to work with a local Package Source. In your `NuGet.Config`
 add in a `DefaultPushSource`.
 
