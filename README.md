@@ -11,6 +11,8 @@ files left in the root of the project are deleted.
 
 http://www.nuget.org/packages/TC.NuGetPack.All/
 
+This utility runs with `-NoDefaultExcludes` and `-NoPackageAnalysis`.
+
 ##TC.NuGetPack.Project
 
 This utility inspects your project to pack the `.nupkg` file.
