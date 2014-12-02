@@ -11,7 +11,7 @@ files left in the root of the project are deleted.
 
 http://www.nuget.org/packages/TC.NuGetPack.All/
 
-This utility runs with `-NoDefaultExcludes` and `-NoPackageAnalysis`.
+This utility runs with `-NoDefaultExcludes` on the assumption all files are manually added to `.nuspec`.
 
 ##TC.NuGetPack.Project
 

@@ -2,6 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>TC.NuGetPack.All</id>
+    <!-- update build targets when updating version-->
     <version>1.0.1.4</version>
     <title>TC NuGet Pack (All)</title>
     <authors>gothandy</authors>
