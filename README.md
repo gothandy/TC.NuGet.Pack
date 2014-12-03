@@ -3,6 +3,9 @@
 Utilities for automating the creation of NuGet packages.
 The NuGet.exe used is the bootstrapper version.
 
+## Installation
+After cloning this solution you'll need to run `TC.NuGetPack\NuGetPack.bat` to push packges to your local package source.
+
 ##TC.NuGetPack.All
 
 This utility runs through all the `.nuspec` files in your
