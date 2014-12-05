@@ -7,8 +7,8 @@
     <ProjectGuid>{94E64058-9569-4344-B812-EFABF2FE81B7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TC.NuGetPack.Project.Test</RootNamespace>
-    <AssemblyName>TC.NuGetPack.Project.Test</AssemblyName>
+    <RootNamespace>TC.NuGetPack.Project</RootNamespace>
+    <AssemblyName>Test.TC.NuGetPack.Project</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

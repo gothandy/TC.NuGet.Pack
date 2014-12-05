@@ -36,7 +36,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="TC.NuGet.Pack.All.Test.nuspec">
+    <None Include="Test.TC.NuGet.Pack.All.nuspec">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
