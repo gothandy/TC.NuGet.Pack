@@ -32,29 +32,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="build\TC.NuGetPack.Project.targets">
+    <None Include="build\TC.NuGet.Pack.Project.targets">
       <SubType>Designer</SubType>
     </None>
-    <None Include="build\TC.NuGetPack.All.targets">
+    <None Include="build\TC.NuGet.Pack.All.targets">
       <SubType>Designer</SubType>
     </None>
-    <None Include="NuGetPack.bat" />
-    <None Include="TC.NuGetPack.All.nuspec">
+    <None Include="NuGet.Pack.bat" />
+    <None Include="TC.NuGet.Pack.All.nuspec">
       <SubType>Designer</SubType>
     </None>
-    <None Include="TC.NuGetPack.Project.nuspec">
+    <None Include="TC.NuGet.Pack.Project.nuspec">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TC.NuGetPack.Project.Test
+namespace TC.NuGet.Pack.Project.Test
 {
     public class Class1
     {

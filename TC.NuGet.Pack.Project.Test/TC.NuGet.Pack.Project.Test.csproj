@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="TC.NuGetPack.Project.Test.nuspec" />
+    <None Include="TC.NuGet.Pack.Project.Test.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\TC.NuGetPack.Project.1.0.1.1\build\TC.NuGetPack.Project.targets" Condition="Exists('..\packages\TC.NuGetPack.Project.1.0.1.1\build\TC.NuGetPack.Project.targets')" />

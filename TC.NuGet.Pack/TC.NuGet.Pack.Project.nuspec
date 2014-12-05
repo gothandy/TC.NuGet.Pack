@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>TC.NuGetPack.Project</id>
-    <version>1.0.1.3</version>
-    <title>TC NuGet Pack (Project)</title>
+    <id>TC.NuGet.Pack.Project</id>
+    <version>1.0.1.4</version>
+    <title>NuGet Pack (Project)</title>
     <authors>gothandy</authors>
-    <licenseUrl>https://github.com/gothandy/TC.NuGetPack/blob/master/LICENSE.md</licenseUrl>
-    <projectUrl>https://github.com/gothandy/TC.NuGetPack</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/gothandy/TC.NuGetPack/master/favicon.ico</iconUrl>
+    <licenseUrl>https://github.com/gothandy/TC.NuGet.Pack/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/gothandy/TC.NuGet.Pack</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/gothandy/TC.NuGet.Pack/master/favicon.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Update the project NuGet package automatically after every build.</description>
     <copyright>Copyright 2014 True Clarity</copyright>
     <developmentDependency>true</developmentDependency>    
   </metadata>
   <files>
-    <file src="build\TC.NuGetPack.Project.targets" target="build\TC.NuGetPack.Project.targets" />
+    <file src="build\TC.NuGet.Pack.Project.targets" target="build\TC.NuGet.Pack.Project.targets" />
     <file src="build\NuGet.exe" target="build\NuGet.exe" />
   </files>
 </package>

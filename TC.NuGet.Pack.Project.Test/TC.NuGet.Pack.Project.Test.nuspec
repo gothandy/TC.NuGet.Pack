@@ -6,9 +6,9 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>https://github.com/gothandy/TC.NuGetPack/blob/master/LICENSE.md</licenseUrl>
-    <projectUrl>https://github.com/gothandy/TC.NuGetPack</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/gothandy/TC.NuGetPack/master/favicon.ico</iconUrl>
+    <licenseUrl>https://github.com/gothandy/TC.NuGet.Pack/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/gothandy/TC.NuGet.Pack</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/gothandy/TC.NuGet.Pack/master/favicon.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>Test package..</releaseNotes>
