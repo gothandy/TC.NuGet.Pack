@@ -39,13 +39,15 @@
     <None Include="TC.NuGet.Pack.All.nuspec">
       <SubType>Designer</SubType>
     </None>
+    <None Include="TC.NuGet.Pack.All.targets" />
     <None Include="TC.NuGet.Pack.Project.nuspec">
       <SubType>Designer</SubType>
     </None>
+    <None Include="TC.NuGet.Pack.Project.targets" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
-    <Content Include="build\NuGet.exe" />
+    <Content Include="NuGet.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

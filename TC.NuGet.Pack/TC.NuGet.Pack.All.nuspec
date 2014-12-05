@@ -15,7 +15,7 @@
     <developmentDependency>true</developmentDependency>
   </metadata>
   <files>
-    <file src="build\TC.NuGet.Pack.All.targets" target="build\TC.NuGet.Pack.All.targets" />
-    <file src="build\NuGet.exe" target="build\NuGet.exe" />
+    <file src="TC.NuGet.Pack.All.targets" target="build\TC.NuGet.Pack.All.targets" />
+    <file src="NuGet.exe" target="build\NuGet.exe" />
   </files>
 </package>

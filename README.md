@@ -50,6 +50,22 @@ Don't forget to add `NuGetLocalFeed\` to your .gitignore or equivilant.
   </packageSources>
 </configuration>
 ```
+
+### Project References Error
+
+`This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.`
+
+When a message like this appears in build process then you'll need to delete the following. This appears to happen when two versions of the package are installed at the same time.
+
+```
+  <Import Project="..\packages\TC.NuGetPack.All.1.0.1.4\build\TC.NuGetPack.All.targets" Condition="Exists('..\packages\TC.NuGetPack.All.1.0.1.4\build\TC.NuGetPack.All.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\TC.NuGetPack.All.1.0.1.4\build\TC.NuGetPack.All.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\TC.NuGetPack.All.1.0.1.4\build\TC.NuGetPack.All.targets'))" />
+  </Target>
+```
 ##References
 
 http://blog.davidebbo.com/2014/01/the-right-way-to-restore-nuget-packages.html

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-      <id>TC.NuGet.Pack.All.Test</id>
+      <id>Test.TC.NuGet.Pack.All</id>
       <version>1.0.0.0</version>
-      <title>TC NuGet Pack (All) [TEST]</title>
+      <title>[TEST] NuGet Pack (All) </title>
       <authors>gothandy</authors>
       <licenseUrl>https://github.com/gothandy/TC.NuGet.Pack/blob/master/LICENSE.md</licenseUrl>
       <projectUrl>https://github.com/gothandy/TC.NuGet.Pack</projectUrl>

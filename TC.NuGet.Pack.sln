@@ -12,9 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TC.NuGet.Pack", "TC.NuGet.Pack\TC.NuGet.Pack.csproj", "{E1B80526-F9BB-4C4D-B436-1D4F7DD366CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TC.NuGet.Pack.All.Test", "TC.NuGet.Pack.All.Test\TC.NuGet.Pack.All.Test.csproj", "{B45C734B-A224-417D-B35B-9F1CD13E6335}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.TC.NuGet.Pack.All", "Test.TC.NuGet.Pack.All\Test.TC.NuGet.Pack.All.csproj", "{B45C734B-A224-417D-B35B-9F1CD13E6335}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TC.NuGet.Pack.Project.Test", "TC.NuGet.Pack.Project.Test\TC.NuGet.Pack.Project.Test.csproj", "{94E64058-9569-4344-B812-EFABF2FE81B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.TC.NuGet.Pack.Project", "Test.TC.NuGet.Pack.Project\Test.TC.NuGet.Pack.Project.csproj", "{94E64058-9569-4344-B812-EFABF2FE81B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TC.NuGet.Pack.Project.Test")]
-[assembly: AssemblyDescription("Description")]
+[assembly: AssemblyTitle("[Test] NuGet Pack (Project)")]
+[assembly: AssemblyDescription("[Test]")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Company")]
-[assembly: AssemblyProduct("TC.NuGet.Pack.Project.Test")]
+[assembly: AssemblyProduct("Test.TC.NuGet.Pack.Project")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
