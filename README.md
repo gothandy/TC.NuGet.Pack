@@ -35,15 +35,20 @@ will be added to your `packages.config` file automatically.
 ##Pushing Local
 
 Given these utilities push a package after every build it is often
-easier to work with a local Package Source. In your `NuGet.Config`
-add in a `DefaultPushSource`.
+easier to work with a local Package Source. Add a `NuGet.Config`
+to the solution root to set `DefaultPushSource` and your local feed.
+Don't forget to add `NuGetLocalFeed\` to your .gitignore or equivilant.
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <config>
-    <add key="DefaultPushSource" value="C:\TC\LocalPackageSource" />
+    <add key="DefaultPushSource" value="NuGetLocalFeed" />
   </config>
+  <packageSources>
+    <add key="NuGetLocalFeed" value="NuGetLocalFeed" />
+  </packageSources>
+</configuration>
 ```
 ##References
 
